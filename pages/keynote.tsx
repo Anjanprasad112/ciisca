@@ -22,7 +22,7 @@ function Keynote() {
 "
                 dept="Department of Computer Science and Automation "
                 ed="Indian Institute of Science, Bengaluru"
-                RI="Primary efforts in applying counter manipulation detection technology"
+                RI="Soft Computing, Machine Learning and Optimization Algorithms"
                 date="10:00 to 11:00 AM (IST), June 23, 2023"
               />
               <Profile

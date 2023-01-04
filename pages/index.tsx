@@ -11,21 +11,129 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>CIISCA</title>
+      </Head>
       <div className="w-full z-0">
         <Header />
         <section>
-          <div className="w-full h-11/12">
+          <div className="relative w-full h-11/12">
+            <div className="absolute flex flex-col justify-items-center text-center w-full mt-20">
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                First Internatinal Conference on
+              </p>
+              <p className="text-3xl text-red-900 font-semibold tracking-wide">
+                "Computational Intelligence for Information, Security and
+                Communication Applications"
+              </p>
+
+              <img src="" alt="ciisca logo" />
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                In Association with
+              </p>
+              <img
+                src="https://file.keoaeic.org/uploads/ueditor/image/20191226/IEEE-CS-CPS.jpg"
+                alt="logo"
+                className="w-full h-24 object-contain "
+              />
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                Organized by:
+              </p>
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                Department of Artificial Intelligence and Data Science
+              </p>
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                Global Academy of Technology
+              </p>
+              <br />
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                Academic Partner
+              </p>
+              <img
+                src="https://bussinfo.iiita.ac.in/images/favicon.gif"
+                alt="logo"
+                className="w-full h-28 object-contain"
+              />
+              <p className="text-2xl text-red-900 font-medium tracking-wide">
+                Indian Institue of Information Technology, Allahabad
+              </p>
+            </div>
             <img
               src="https://scontent.fblr1-6.fna.fbcdn.net/v/t1.6435-9/86490460_3005661836145800_6880224449241546752_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=102&ccb=1-7&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=NMraWHwIWA8AX8HBV1E&_nc_ht=scontent.fblr1-6.fna&oh=00_AfCQ7e-yXaVz3bUYD6bc5b9c3_CPk9kDhiLav7NwPyJEWA&oe=63DB2AB1"
-              className="w-full h-[95vh] object-cover"
+              className="w-full h-[95vh] object-cover 
+
+              "
             />
           </div>
+          {/* <div className="absolute flex flex-col space-y-5 left-24 top-20 text-center  font-bold text-yellow-400">
+            <div className="text-6xl font-bold">
+              Department of Artificial Intelligence and Data Science
+              <br />
+              Global Academy of Technology, Bengaluru
+            </div>
+            <div className="font-medium text-4xl text-red-600">
+              First International Conference on
+            </div>
+            <div className="text-6xl font-semibold text-gat">
+              "Computational Intelligence for Information, Security and
+              Communication Applications"
+            </div>
+          </div> */}
         </section>
         <section className="w-3/5 h-full bg-white flex flex-col items-center py-10 mx-auto">
+          <div className="text-4xl font-semibold tracking-wide ">About GAT</div>
+          <div className="py-10 font-normal leading-9 text-justify">
+            About GAT Global Academy of Technology (GAT), is an Autonomous
+            Institute affiliated to VTU, Belagavi established in the year 2001
+            located in a sprawling campus of 10-acre land in Bengaluru,
+            Karnataka. The institute has built a reputation for having set high
+            benchmarks in Quality education and commitment of an ideal campus
+            for students to hone their academics by providing ample
+            opportunities & immense focus on hand-on learning. The campus brims
+            with more than 3500 students and 300 experienced staffs involved in
+            effective Teaching and Learning Process. GAT has all the
+            state-of-the-art infrastructure and aims at bridging the gap between
+            academia and industry by signing MoUs like the ones with Infosys,
+            Power research and development consultants, Lema Labs, Advanced
+            Electronics systems, Toyota Ltd, etc. GAT has inculcated research
+            activities with academics to enhance the scholastic standards in
+            teaching and the quality of output by offering 9 UG (BE) Programmes
+            and also MBA Programme. It offers research assistance to the faculty
+            in collaboration with institutions of repute like IIIT Allahabad &
+            Mahatma Gandhi University, Kottayam.
+          </div>
+          <div className="text-4xl font-semibold tracking-wide ">
+            About Department
+          </div>
+          <div className="py-10 font-normal leading-9 text-justify">
+            The Department of Artificial Intelligence & Data Science (AI & DS)
+            is the youngest branch of Global Academy of Technology, established
+            in 2020. The department has fostered excellence in undergraduate
+            education while advancing research that pushes the boundaries of
+            Machine Learning and Artificial Intelligence. The curriculum of the
+            AI&DS program is designed to provide necessary basics in Computer
+            science engineering with specialized knowledge and skills in
+            Artificial Intelligence, Machine Learning, Deep Learning, Data
+            Mining, Big Data and Natural Language Processing. The department
+            comprises of faculty members with long academic experience in the
+            domain and pursuing research activities in all related disciplines
+            of Artificial Intelligence and Data Science. The key highlights of
+            AI & DS are: Research oriented teaching, Student centric through
+            early internship opportunities in IITs, NITs and in IIITs, promoting
+            innovative research and development in Artificial Intelligence and
+            Data Science and its allied fields in collaboration with industries.
+            As a result of this students are actively involved in research
+            publications and Mini Projects. Department of AI & DS focuses on to
+            prepare the students for solving real-world problems using AI by
+            imparting engineering skills through experiential learning mode and
+            to provide a pleasant environment in pursuit of excellence by
+            keeping high personal and professional values and ethics.
+          </div>
+
           <div className="text-4xl font-semibold tracking-wide ">
             About CIISCA
           </div>
-          <div className="py-10 font-normal leading-9">
+          <div className="py-10 font-normal leading-9 text-justify">
             CIISCA 2023 is an International Conference focused exclusively on
             academicians, industrialist and students to present their latest
             research results, ideas, developments, and applications in all areas
@@ -43,12 +151,12 @@ export default function Home() {
             adoption of these maximizing the value to customers and resolves the
             challenges in knitting the technology together
           </div>
-          <div className="w-full rounded-lg border-zinc-300 border">
+          <div className="w-full rounded-lg border-zinc-300 border select-none">
             <table className="w-full table-auto shadow-lg shadow-gray-300 rounded-lg ">
               <thead className="w-full bg-gat h-14 rounded-t-lg">
                 <th
                   colSpan={2}
-                  className="text-2xl text-white font-semibold tracking-wide  rounded-t-lg"
+                  className="text-2xl bg-gat text-white font-semibold tracking-wide  rounded-t-lg"
                 >
                   Important Dates
                 </th>
@@ -58,25 +166,25 @@ export default function Home() {
                   <td className="px-10 rounded-l">
                     Last Date for Paper Submission
                   </td>
-                  <td className="px-10 rounded-r">20th May, 2023</td>
+                  <td className="px-10 rounded-r">15th May, 2023</td>
                 </tr>
                 <tr className="w-full h-14 bg-zinc-300 rounded-r">
                   <td className="px-10 rounded-l">
                     Notification of acceptance
                   </td>
-                  <td className="px-10 rounded-r">31 May, 2022</td>
+                  <td className="px-10 rounded-r">31st May, 2022</td>
                 </tr>
                 <tr className="w-full h-14 rounded-r">
                   <td className="px-10 rounded-l">
                     Camera Ready Paper Submission
                   </td>
-                  <td className="px-10 rounded-r">8th June, 2023</td>
+                  <td className="px-10 rounded-r">5th June, 2023</td>
                 </tr>
                 <tr className="w-full h-14 bg-zinc-300 rounded-r">
                   <td className="px-10 rounded-l">
                     Last Date for Registration
                   </td>
-                  <td className="px-10 rounded-r">11th June, 2023</td>
+                  <td className="px-10 rounded-r">6th June, 2023</td>
                 </tr>
               </tbody>
             </table>
@@ -88,64 +196,71 @@ export default function Home() {
           </div>
           <div className="flex w-full self-center justify-self-center my-10 space-x-4">
             <div className="w-full text-left  space-y-2">
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Electronics Devices, Circuits and Systems</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Network Technologies and Systems</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Signal Processing</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Data Mining and Big Data Analysis</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Communication Technologies and Systems</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Bioinformatics and Machine Learning Algorithms</div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Electronics Devices, Circuits and Systems
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Network Technologies and Systems
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Signal Processing
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Data Mining and Big Data Analysis
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Communication Technologies and Systems
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Bioinformatics and Machine Learning Algorithms
+              </div>
             </div>
             <div className="w-full text-left space-y-2">
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Multimedia Processing Technologies and Systems</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Language Technologies and Information Retrieval</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Robotics and Artificial Intelligence</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Power Electronics and Control Engineering</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Security, Privacy and Digital Forensics</div>
-              <div className='h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal '>Internet of Things</div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Multimedia Processing Technologies and Systems
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Language Technologies and Information Retrieval
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Robotics and Artificial Intelligence
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Power Electronics and Control Engineering
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Security, Privacy and Digital Forensics
+              </div>
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+                Internet of Things
+              </div>
             </div>
           </div>
         </section>
-        <footer className='grid grid-cols-4 grid-rows-1 w-full bg-gat py-10 text-white px-20 gap-10'>
-          {/* <div></div> */}
-          <div className='w-full'>
-            <div className='text-lg tracking-wider'>
-              CIISCA 2023
+        <section>
+          <div className="w-3/5 h-40 flex mx-auto my-10">
+            <div className="h-full w-1/2">
+              <img
+                src="https://file.keoaeic.org/uploads/ueditor/image/20191226/IEEE-CS-CPS.jpg"
+                alt=""
+                className="w-full h-full object-contain"
+              />
             </div>
-            <div className=" w-4/5 mt-8 text-left">
-              CIISCA 2023 is an International Conference focused exclusively on
-              academicians, industrialist and students to present their latest research
-              results, ideas, developments, and applications in all areas of
-              Information Sciences, Security and Communication.
-            </div>
-          </div>
-          <div className=' w-full'>
-            <div className='text-lg tracking-wider'>
-              Useful Links
-            </div>
-            <div className="flex flex-col space-y-4 tracking-wider mt-8 text-left">
-              <Link href='/keynote'>Speakers</Link>
-              <Link href='/call-for-papers'>CFP</Link>
+            <div className="h-full w-1/2">
+              <img
+                src="https://bussinfo.iiita.ac.in/images/favicon.gif"
+                alt=""
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
-          <div className=' w-full'>
-            <div className='text-lg tracking-wider'>
-              About
-            </div>
-            <div className="flex flex-col space-y-4 tracking-wider mt-8 text-left">
-              <Link href='/gat'>About Us</Link>
-              <Link href='/contact'>Contact Us</Link>
-              <Link href='https://goo.gl/maps/h8otqP7Zxnvinwh16'>Locate Us</Link>
-            </div>
-          </div>
-          <div className=' w-full'>
-            <div className='text-lg tracking-wider'>
-              Have question?
-            </div>
-            <div>
-            </div>
-          </div>
-        </footer>
+        </section>
+        <Footer />
       </div>
     </>
   );
 }
+
+//  https://easychair.org/conferences/?conf=ciisca2023
+// paper-templates https://www.ieee.org/conferences/publishing/templates.html.
+//

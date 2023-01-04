@@ -17,7 +17,7 @@ function Footer() {
         <div className="text-lg tracking-wider">Useful Links</div>
         <div className="flex flex-col space-y-4 tracking-wider mt-8 text-left">
           <Link href="/keynote">Speakers</Link>
-          <Link href="/call-for-papers">CFP</Link>
+          <Link href="/callforpapers">CFP</Link>
         </div>
       </div>
       <div className=" w-full">
@@ -29,7 +29,7 @@ function Footer() {
         </div>
       </div>
       <div className=" w-full">
-        <div className="text-lg tracking-wider">Have question?</div>
+        <div className="text-lg tracking-wider">Have questions?</div>
         <div></div>
       </div>
     </footer>
