@@ -189,8 +189,27 @@ export default function Home() {
               </tbody>
             </table>
           </div>
+          <div className="w-1/2 flex flex-col justify-center mx-auto py-4 tracking-wide">
+            <div className="flex flex-row">
+              <p>Conference Brochure : </p>
+              <p className="text-blue-500 ml-2 cursor-pointer">Click here</p>
+            </div>
+            <div className="flex flex-row">
+              <p>For paper Submission :</p>
+              <p className="text-blue-500 ml-2 cursor-pointer">Click here</p>
+            </div>
+            <div className="flex flex-row">
+              <p>For Templates and Instructions : </p>
+              <p className="text-blue-500 ml-2 cursor-pointer">Click here</p>
+            </div>
+            <div className="flex flex-row">
+              <p className="cursor-pointer">
+                For any queries contact: ciisca2023@gmail.com
+              </p>
+            </div>
+          </div>
         </section>
-        <section className="w-3/5 h-full bg-white flex flex-col items-center py-10 mx-auto">
+        <section className="w-3/5 h-full bg-white flex flex-col items-center mx-auto">
           <div className="text-4xl font-semibold tracking-wide ">
             Conference Tracks
           </div>
