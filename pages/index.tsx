@@ -23,8 +23,8 @@ export default function Home() {
                 First Internatinal Conference on
               </div>
               <div className="text-3xl text-red-900 font-semibold tracking-wide">
-                "Computational Intelligence for Information, Security and
-                Communication Applications"
+                &quot;Computational Intelligence for Information, Security and
+                Communication Applications&quot;
               </div>
 
               <img src="" alt="ciisca logo" />
