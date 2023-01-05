@@ -19,44 +19,44 @@ export default function Home() {
         <section>
           <div className="relative w-full h-11/12">
             <div className="absolute flex flex-col justify-items-center text-center w-full mt-20">
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 First Internatinal Conference on
-              </p>
-              <p className="text-3xl text-red-900 font-semibold tracking-wide">
+              </div>
+              <div className="text-3xl text-red-900 font-semibold tracking-wide">
                 "Computational Intelligence for Information, Security and
                 Communication Applications"
-              </p>
+              </div>
 
               <img src="" alt="ciisca logo" />
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 In Association with
-              </p>
+              </div>
               <img
                 src="https://file.keoaeic.org/uploads/ueditor/image/20191226/IEEE-CS-CPS.jpg"
                 alt="logo"
                 className="w-full h-24 object-contain "
               />
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 Organized by:
-              </p>
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              </div>
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 Department of Artificial Intelligence and Data Science
-              </p>
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              </div>
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 Global Academy of Technology
-              </p>
+              </div>
               <br />
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 Academic Partner
-              </p>
+              </div>
               <img
                 src="https://bussinfo.iiita.ac.in/images/favicon.gif"
                 alt="logo"
                 className="w-full h-28 object-contain"
               />
-              <p className="text-2xl text-red-900 font-medium tracking-wide">
+              <div className="text-2xl text-red-900 font-medium tracking-wide">
                 Indian Institue of Information Technology, Allahabad
-              </p>
+              </div>
             </div>
             <img
               src="https://scontent.fblr1-6.fna.fbcdn.net/v/t1.6435-9/86490460_3005661836145800_6880224449241546752_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=102&ccb=1-7&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=NMraWHwIWA8AX8HBV1E&_nc_ht=scontent.fblr1-6.fna&oh=00_AfCQ7e-yXaVz3bUYD6bc5b9c3_CPk9kDhiLav7NwPyJEWA&oe=63DB2AB1"
@@ -191,21 +191,44 @@ export default function Home() {
           </div>
           <div className="w-1/2 flex flex-col justify-center mx-auto py-4 tracking-wide">
             <div className="flex flex-row">
-              <p>Conference Brochure : </p>
-              <p className="text-blue-500 ml-2 cursor-pointer">Click here</p>
+              <div>Conference Brochure : </div>
+              <Link
+                href="/assets/brochure.pdf"
+                className="text-blue-500 ml-2 cursor-pointer"
+                download
+              >
+                Click here
+              </Link>
             </div>
             <div className="flex flex-row">
-              <p>For paper Submission :</p>
-              <p className="text-blue-500 ml-2 cursor-pointer">Click here</p>
+              <div>For paper Submission :</div>
+              <Link
+                href="https://easychair.org/conferences/?conf=ciisca2023
+"
+                className="text-blue-500 ml-2 cursor-pointer"
+              >
+                Click here
+              </Link>
             </div>
             <div className="flex flex-row">
-              <p>For Templates and Instructions : </p>
-              <p className="text-blue-500 ml-2 cursor-pointer">Click here</p>
+              <div>For Templates and Instructions : </div>
+              <Link
+                href="https://www.ieee.org/conferences/publishing/templates.html"
+                className="text-blue-500 ml-2 cursor-pointer"
+              >
+                Click here
+              </Link>
             </div>
             <div className="flex flex-row">
-              <p className="cursor-pointer">
-                For any queries contact: ciisca2023@gmail.com
-              </p>
+              <div className="cursor-pointer">
+                For any queries contact:
+                <a
+                  className="text-blue-500 ml-2 cursor-pointer"
+                  href="mailto:ciisca2023@gmail.com"
+                >
+                  ciisca2023@gmail.com
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -273,6 +296,9 @@ export default function Home() {
               />
             </div>
           </div>
+        </section>
+        <section>
+          <img src="/assets/CIISCA-Poster.pdf" alt="" />
         </section>
         <Footer />
       </div>

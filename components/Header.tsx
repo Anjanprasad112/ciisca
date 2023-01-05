@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 function Header() {
@@ -15,14 +16,16 @@ function Header() {
 
   useEffect(() => {
     window.addEventListener("scroll", listenScroll);
-  }, []);
+  }, [listenScroll]);
 
   return (
     <div
       className={`w-full h-14 flex items-center select-none justify-around font-semibold px-20 tracking-wide bg-${Hc} fixed top-0 z-20 transition-all duration-200 ease-in-out left-0`}
     >
       <Link href="/">
-        <img
+        <Image
+          width={40}
+          height={13}
           src="https://gat.ac.in/images/GAT-logo.png"
           alt="gatlogo"
           className="w-15 h-11"

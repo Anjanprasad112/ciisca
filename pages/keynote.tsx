@@ -1,7 +1,11 @@
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Profile from "../components/profile";
+// import Profile from "../components/profile";
+import dynamic from "next/dynamic";
+const Profile = dynamic(() => import("../components/profile"), {
+  ssr: false,
+});
 
 function Keynote() {
   return (

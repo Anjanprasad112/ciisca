@@ -9,113 +9,113 @@ const committee = () => {
         <Header />
         <div className="flex flex-col justify-center items-center mt-20">
           <div className="flex flex-col justify-center items-center ">
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Cheif Patron
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               D.K. ShivKumar
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Chairman, Global Academy of Technology, Bengaluru.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">Patron(s)</p>
-            <p className="text-center font-medium tracking-wide">
+            <div className="text-center font-normal tracking-wide">Patron(s)</div>
+            <div className="text-center font-medium tracking-wide">
               Sri.S. Lepaksha
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Trustee Secretary, National Education Foundation, Bengaluru.
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Sri. Venkatappa
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Additional Trustee Secretary, National Education Foundation,
               Bengaluru.
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Sri. Vishwanath Reddy
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Administrator, National Education Foundation, Bengaluru.
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr.N. Ranapratap Reddy
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Principal, Global Academy of Technology, Bengaluru.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               General Chair(s)
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr.H M Rajashekar Swamy
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Dean Academics, Global Academy of Technology, Bengaluru.
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Ashwini Kodipalli
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               HOD, Dept of AI&DS, Global Academy of Technology, Bengaluru.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Program Chair
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Ashwini Kodipalli
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               HOD, Dept of AI&DS, Global Academy of Technology, Bengaluru.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Organizing Chair
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Roshan Joy Martis
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Associate Professor, Dept. of CSE, Global Academy of Technology,
               Bengaluru.
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Prof. Trupthi Rao
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Assistant Professor, Dept. of AI&DS, Global Academy of Technology,
               Bengaluru.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Finance & Publication Chair
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Shoaib Kamal
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Associate Professor, Dept of AI&DS, Global Academy of Technology,
               Bengaluru.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Publilcity & Public Relations Chair
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Sonali Agarwal
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Associate Professor, Dept. of IT, Indian Institute of Information
               Technology, Allahabad.
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               International Advisory Committee
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Kenji Doya, University of Tokyo, Japan <br />
               Dr. P. Ramaswamy, University of Kent, UK
               <br />
@@ -135,12 +135,12 @@ const committee = () => {
               <br />
               Dr. Thinagaran Perumal, FSKTM, Malaysia
               <br />
-            </p>{" "}
+            </div>{" "}
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               National Advisory Committee
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Susheela Devi, IISc, Bengaluru
               <br />
               Dr. Shekhar Verma, IIIT Allahabad
@@ -168,23 +168,23 @@ const committee = () => {
               <br />
               Dr. Surya Prakash, IIT Indore
               <br />
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Technical Program Committee Chairs
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. Sadhan Gope
-            </p>
-            <p className="text-center font-light tracking-wide">
+            </div>
+            <div className="text-center font-light tracking-wide">
               Dept. of Electrical Engineering, National Institute of Technology
               Agartala
-            </p>
+            </div>
             <br />
-            <p className="text-center font-normal tracking-wide">
+            <div className="text-center font-normal tracking-wide">
               Technical Program Committee
-            </p>
-            <p className="text-center font-medium tracking-wide">
+            </div>
+            <div className="text-center font-medium tracking-wide">
               Dr. K.P. Singh, IIIT Allahabad
               <br />
               Dr. Vishal Pratap, IIIT Lucknow
@@ -240,7 +240,7 @@ const committee = () => {
               <br />
               Dr. Arup Kumar Goswami, NIT Silchar Assam
               <br />
-            </p>
+            </div>
             <br />
           </div>
         </div>

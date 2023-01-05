@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="grid grid-cols-4 grid-rows-1 w-full bg-black py-10 text-white px-20 gap-10">
+    <div className="grid grid-cols-4 grid-rows-1 w-full bg-black py-10 text-white px-20 gap-10">
       {/* <div></div> */}
       <div className="w-full">
         <div className="text-lg tracking-wider">CIISCA 2023</div>
@@ -32,7 +32,7 @@ function Footer() {
         <div className="text-lg tracking-wider">Have questions?</div>
         <div></div>
       </div>
-    </footer>
+    </div>
   );
 }
 
