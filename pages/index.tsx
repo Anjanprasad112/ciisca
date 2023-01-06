@@ -25,8 +25,9 @@ export default function Home() {
               className="w-full h-[95vh] object-cover opacity-95 " 
             />
             <div className="w-full h-[95vh] bg-blue-900 absolute inset-0 opacity-50 object-contain">
-              <div className="text-center mt-40 text-bold">
-
+            <div className="text-center mt-40 text-bold relative ">
+                <h1>GLOBAL ACADEMY OF TECHNOLOGY</h1><br/>
+                <h1>Presents</h1> <br/>
             <h1>23<sup>rd</sup> & 24<sup>th</sup> JUNE 2023-Bengaluru.</h1><br/>
               </div>
               <div>
@@ -37,6 +38,7 @@ export default function Home() {
                 <h1>CIISCA - 2023</h1>
               </div>
             </div>
+            
             
             
           </div>
