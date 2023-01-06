@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  td {
+    @apply w-14 h-14 border text-center px-4;
+  }
+  th {
+    @apply w-14 h-14 border px-2 bg-th tracking-wider;
+  }
+  h1{
+    @apply text-4xl font-bold text-white tracking-wide text-center opacity-100 leading-10 !important;
+  }
+}
