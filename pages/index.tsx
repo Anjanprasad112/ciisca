@@ -14,6 +14,7 @@ export default function Home() {
     <>
       <Head>
         <title>CIISCA</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
       </Head>
       <div className="w-full">
         <Header />
@@ -282,7 +283,7 @@ export default function Home() {
             </div>
             <div className="h-full w-1/2 m-4 flex flex-col justify-center items-center">
               <div className="text-2xl font-semibold tracking-wide">
-                Endrosed By
+                Endorsed By
               </div>
               <img
                 src={"/assets/logo.jpg"}
