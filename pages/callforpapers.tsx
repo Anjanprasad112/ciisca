@@ -255,30 +255,59 @@ const callforpapers = () => {
                   <td className="px-10 rounded-l">
                     Last Date for Paper Submission
                   </td>
-                  <td className="px-10 rounded-r">15th May, 2023</td>
+                  <td className="px-10 rounded-r">
+                    15<sup>th</sup> May, 2023
+                  </td>
                 </tr>
                 <tr className="w-full h-14 bg-zinc-300 rounded-r">
                   <td className="px-10 rounded-l">
                     Notification of acceptance
                   </td>
-                  <td className="px-10 rounded-r">31st May, 2022</td>
+                  <td className="px-10 rounded-r">
+                    31<sup>st</sup> May, 2023
+                  </td>
                 </tr>
                 <tr className="w-full h-14 rounded-r">
                   <td className="px-10 rounded-l">
                     Camera Ready Paper Submission
                   </td>
-                  <td className="px-10 rounded-r">5th June, 2023</td>
+                  <td className="px-10 rounded-r">
+                    5<sup>th</sup> June, 2023
+                  </td>
                 </tr>
                 <tr className="w-full h-14 bg-zinc-300 rounded-r">
                   <td className="px-10 rounded-l">
                     Last Date for Registration
                   </td>
-                  <td className="px-10 rounded-r">6th June, 2023</td>
+                  <td className="px-10 rounded-r">
+                    6<sup>th</sup> June, 2023
+                  </td>
                 </tr>
               </tbody>
             </table>
           </div>
         </section>
+        <div className="w-1/2 p-auto m-auto ">
+          <div className="text-2xl md:text-4xl font-semibold tracking-wide text-center m-2">
+            Submission Guidelines
+          </div>
+          <div className="font-normal text-sm md:text-lg leading-normal w-full tracking-wide p-auto m-4  ">
+            Submissions must be original and should not have been published
+            previously or be under consideration for publication while being
+            evaluated for this Conference. The full manuscript must be submitted
+            in IEEE format as Latex/Microsoft word. Paper length should be
+            maximum of 6 pages. Papers submitted in the conference will undergo
+            a rigorous and peer review process. All presented papers will be
+            submitted to IEEE Xplore digital library and submitted for indexing
+            to Scopus.
+          </div>
+          <div className="text-center m-4">
+            <div className="font-bold text-2xl">Regards</div>
+            <div className="font-bold text-2xl">
+              Organising Team-CIISCA-2023
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     </>

@@ -3,14 +3,14 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 function Header() {
-  const [Hc, setHc] = useState("transparent");
+  const [Hc, setHc] = useState("transparent text-white ");
 
   const listenScroll = (e: any) => {
     if (window.scrollY > 100) {
       setHc("white text-gat");
       console.log(Hc);
     } else {
-      setHc("transparent");
+      setHc("transparent text-white");
     }
   };
 
@@ -25,10 +25,9 @@ function Header() {
       <Link href="/">
         <Image
           width={40}
-          height={13}
+          height={15}
           src="https://gat.ac.in/images/GAT-logo.png"
           alt="gatlogo"
-          className="w-15 h-11"
         />
       </Link>
       <Link href="/">Home</Link>

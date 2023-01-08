@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
+// import logo from '/assets/ciiscalogo.jpeg';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,73 +15,43 @@ export default function Home() {
       <Head>
         <title>CIISCA</title>
       </Head>
-      <div className="w-full z-0">
+      <div className="w-full">
         <Header />
-        <section>
-          <div className="relative w-full h-11/12">
-            <div className="absolute flex flex-col justify-items-center text-center w-full mt-20">
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                First Internatinal Conference on
-              </div>
-              <div className="text-3xl text-red-900 font-semibold tracking-wide">
-                &quot;Computational Intelligence for Information, Security and
-                Communication Applications&quot;
-              </div>
-
-              <img src="" alt="ciisca logo" />
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                In Association with
-              </div>
-              <img
-                src="https://file.keoaeic.org/uploads/ueditor/image/20191226/IEEE-CS-CPS.jpg"
-                alt="logo"
-                className="w-full h-24 object-contain "
-              />
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                Organized by:
-              </div>
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                Department of Artificial Intelligence and Data Science
-              </div>
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                Global Academy of Technology
-              </div>
-              <br />
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                Academic Partner
-              </div>
-              <img
-                src="https://bussinfo.iiita.ac.in/images/favicon.gif"
-                alt="logo"
-                className="w-full h-28 object-contain"
-              />
-              <div className="text-2xl text-red-900 font-medium tracking-wide">
-                Indian Institue of Information Technology, Allahabad
-              </div>
-            </div>
+        <section className="w-full z-10">
+          <div className=" w-full h-11/12">
             <img
               src="https://scontent.fblr1-6.fna.fbcdn.net/v/t1.6435-9/86490460_3005661836145800_6880224449241546752_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=102&ccb=1-7&_nc_sid=dd9801&efg=eyJpIjoidCJ9&_nc_ohc=NMraWHwIWA8AX8HBV1E&_nc_ht=scontent.fblr1-6.fna&oh=00_AfCQ7e-yXaVz3bUYD6bc5b9c3_CPk9kDhiLav7NwPyJEWA&oe=63DB2AB1"
-              className="w-full h-[95vh] object-cover 
-
-              "
+              className="w-full h-[95vh] object-cover opacity-100"
             />
+            <div className="w-full h-[95vh] bg-indigo-900 absolute inset-0 opacity-70 object-contain"></div>
+            <div className="w-full h-[95vh] bg-transparent absolute inset-0  object-contain">
+              <div className="text-center mt-40 text-bold tracking-widest !text-yellow-500">
+                <h1>GLOBAL ACADEMY OF TECHNOLOGY</h1>
+                <br />
+                <h1>Presents</h1> <br />
+                <h1>
+                  23<sup>rd</sup> & 24<sup>th</sup> JUNE 2023-Bengaluru.
+                </h1>
+                <br />
+              </div>
+              <div className="flex flex-col items-center text-yellow-500">
+                <h1>
+                  Computational Intelligence for <br />
+                  Information, Security and
+                  <br /> Communication Applications
+                </h1>
+                <br />
+                <h1>CIISCA - 2023</h1>
+                {/* <img
+                src={"/assets/logo.jpg"}
+                alt=""
+                className="w-full h-full object-contain"
+              /> */}
+              </div>
+            </div>
           </div>
-          {/* <div className="absolute flex flex-col space-y-5 left-24 top-20 text-center  font-bold text-yellow-400">
-            <div className="text-6xl font-bold">
-              Department of Artificial Intelligence and Data Science
-              <br />
-              Global Academy of Technology, Bengaluru
-            </div>
-            <div className="font-medium text-4xl text-red-600">
-              First International Conference on
-            </div>
-            <div className="text-6xl font-semibold text-gat">
-              "Computational Intelligence for Information, Security and
-              Communication Applications"
-            </div>
-          </div> */}
         </section>
-        <section className="w-3/5 h-full bg-white flex flex-col items-center py-10 mx-auto">
+        <section className="w-3/5 h-full bg-white flex flex-col items-center py-10 mx-auto z-1">
           <div className="text-4xl font-semibold tracking-wide ">About GAT</div>
           <div className="py-10 font-normal leading-9 text-justify">
             About GAT Global Academy of Technology (GAT), is an Autonomous
@@ -166,25 +137,33 @@ export default function Home() {
                   <td className="px-10 rounded-l">
                     Last Date for Paper Submission
                   </td>
-                  <td className="px-10 rounded-r">15th May, 2023</td>
+                  <td className="px-10 rounded-r">
+                    15<sup>th</sup> May, 2023
+                  </td>
                 </tr>
                 <tr className="w-full h-14 bg-zinc-300 rounded-r">
                   <td className="px-10 rounded-l">
                     Notification of acceptance
                   </td>
-                  <td className="px-10 rounded-r">31st May, 2022</td>
+                  <td className="px-10 rounded-r">
+                    31<sup>st</sup> May, 2023
+                  </td>
                 </tr>
                 <tr className="w-full h-14 rounded-r">
                   <td className="px-10 rounded-l">
                     Camera Ready Paper Submission
                   </td>
-                  <td className="px-10 rounded-r">5th June, 2023</td>
+                  <td className="px-10 rounded-r">
+                    5<sup>th</sup> June, 2023
+                  </td>
                 </tr>
                 <tr className="w-full h-14 bg-zinc-300 rounded-r">
                   <td className="px-10 rounded-l">
                     Last Date for Registration
                   </td>
-                  <td className="px-10 rounded-r">6th June, 2023</td>
+                  <td className="px-10 rounded-r">
+                    6<sup>th</sup> June, 2023
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -194,6 +173,16 @@ export default function Home() {
               <div>Conference Brochure : </div>
               <Link
                 href="/assets/brochure.pdf"
+                className="text-blue-500 ml-2 cursor-pointer"
+                download
+              >
+                Click here
+              </Link>
+            </div>
+            <div className="flex flex-row">
+              <div>Conference Poster : </div>
+              <Link
+                href="/assets/poster.pdf"
                 className="text-blue-500 ml-2 cursor-pointer"
                 download
               >
@@ -238,42 +227,42 @@ export default function Home() {
           </div>
           <div className="flex w-full self-center justify-self-center my-10 space-x-4">
             <div className="w-full text-left  space-y-2">
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate ">
                 Electronics Devices, Circuits and Systems
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Network Technologies and Systems
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal  truncate">
                 Signal Processing
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Data Mining and Big Data Analysis
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Communication Technologies and Systems
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Bioinformatics and Machine Learning Algorithms
               </div>
             </div>
             <div className="w-full text-left space-y-2">
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Multimedia Processing Technologies and Systems
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Language Technologies and Information Retrieval
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Robotics and Artificial Intelligence
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Power Electronics and Control Engineering
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Security, Privacy and Digital Forensics
               </div>
-              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal ">
+              <div className="h-10 w-full bg-gat bg-opacity-30 rounded-lg items-center flex px-10 text-lg font-normal truncate">
                 Internet of Things
               </div>
             </div>
@@ -281,14 +270,30 @@ export default function Home() {
         </section>
         <section>
           <div className="w-3/5 h-40 flex mx-auto my-10">
-            <div className="h-full w-1/2">
+            <div className="h-full w-1/2 m-4 flex flex-col justify-center items-center">
+              <div className="text-2xl font-semibold tracking-wide">
+                In Association With
+              </div>
               <img
                 src="https://file.keoaeic.org/uploads/ueditor/image/20191226/IEEE-CS-CPS.jpg"
+                alt=""
+                className="w-full h-full object-contain "
+              />
+            </div>
+            <div className="h-full w-1/2 m-4 flex flex-col justify-center items-center">
+              <div className="text-2xl font-semibold tracking-wide">
+                Endrosed By
+              </div>
+              <img
+                src={"/assets/logo.jpg"}
                 alt=""
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="h-full w-1/2">
+            <div className="h-full w-1/2 m-4 flex flex-col justify-center items-center">
+              <div className="text-2xl font-semibold tracking-wide">
+                Academic Partner
+              </div>
               <img
                 src="https://bussinfo.iiita.ac.in/images/favicon.gif"
                 alt=""
@@ -297,9 +302,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <img src="/assets/CIISCA-Poster.pdf" alt="" />
-        </section>
+
         <Footer />
       </div>
     </>

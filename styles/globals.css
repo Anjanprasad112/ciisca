@@ -15,4 +15,7 @@
   th {
     @apply w-14 h-14 border px-2 bg-th tracking-wider;
   }
+  h1 {
+    @apply text-4xl font-bold tracking-widest text-center opacity-100 leading-10;
+  }
 }

@@ -21,17 +21,22 @@ function Footer() {
         </div>
       </div>
       <div className=" w-full">
-        <div className="text-lg tracking-wider">About</div>
+        <div className="text-lg tracking-wider">Have Questions?</div>
         <div className="flex flex-col space-y-4 tracking-wider mt-8 text-left">
           <Link href="/gat">About Us</Link>
           <Link href="/contact">Contact Us</Link>
           <Link href="https://goo.gl/maps/h8otqP7Zxnvinwh16">Locate Us</Link>
         </div>
       </div>
-      <div className=" w-full">
+      <img
+        src={"/assets/logo.jpg"}
+        alt=""
+        className="w-full h-full object-contain"
+      />
+      {/* <div className=" w-full">
         <div className="text-lg tracking-wider">Have questions?</div>
         <div></div>
-      </div>
+      </div> */}
     </div>
   );
 }
