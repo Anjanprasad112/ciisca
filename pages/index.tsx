@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Starttimer from "../components/Starttimer";
 // import logo from '/assets/ciiscalogo.jpeg';
 
 const inter = Inter({ subsets: ["latin"] });
@@ -74,6 +75,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div className="w-full ">
+          <Starttimer/>
+        </div>
         <section className="w-3/5 h-full bg-white flex flex-col items-center py-10 mx-auto z-1">
           <div className="text-4xl font-semibold tracking-wide ">About GAT</div>
           <div className="py-10 font-normal leading-9 text-justify">
